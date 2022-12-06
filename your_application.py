@@ -76,5 +76,5 @@ Instead you should be using the flask command line script's run support.
 :param options: the options to be forwarded to the underlying Werkzeug
     server. See werkzeug.serving.run_simple for more information.'''
     
-if __name__ == "__main__":  #如果進入主程式
-    app.run()   #app 伺服器啟動
+# if __name__ == "__main__":  #如果進入主程式
+#     app.run()   #app 伺服器啟動
